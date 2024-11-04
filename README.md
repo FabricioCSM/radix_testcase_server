@@ -9,11 +9,6 @@ Ensure you have the following installed:
  - Docker and Docker Compose
  - Git
 
-Create an .env file in the project root to configure your environment variables, following .env.example if provided.
-Ensure the .env file includes values for the database URL, like:
-
-DATABASE_URL=postgresql://user:password@db:5432/sensordb
-
 * Sample Data:
 
 This backend includes a sample dataset for initial testing.
