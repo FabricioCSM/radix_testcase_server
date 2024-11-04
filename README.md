@@ -22,11 +22,14 @@ To start the backend server and database using Docker Compose:
 
 Docker will set up the FastAPI server, database, and any additional services required.
 
-Install Additional Python Dependencies (if not included in Docker):
+Install Additional Python Dependencies:
 
 - If you need to install dependencies, enter the container:
 
-docker compose exec api bash:
+`docker compose exec api bash`
+
+- Install the lib
+
 `pip install <Lib you want to install>`
 
 
